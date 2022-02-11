@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Sans&family=Ubuntu&display=swap");
 @import url("/css/index.css");
+@import url("/css/product.css");
 
 * {
   margin: 0;
