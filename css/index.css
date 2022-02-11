@@ -13,6 +13,14 @@
   top: 0;
   z-index: 1;
 }
+.nav-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-logo i {
+  margin-right: 1rem;
+}
 .nav-logo h2 {
   font-size: 2rem;
 }
