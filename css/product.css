@@ -108,6 +108,21 @@ input[type="range"] {
 .btn:hover {
   opacity: 0.6;
 }
+/*****************/
+::-webkit-scrollbar {
+  width: 3px;
+}
+::-webkit-scrollbar-track {
+  background-color: rgb(153, 153, 153);
+}
+::-webkit-scrollbar-thumb {
+  background-color: black;
+  /* border-radius: 2rem; */
+}
+* {
+  scrollbar-width: bold;
+  scrollbar-color: rgb(153, 153, 153) black;
+}
 @media screen and (max-width: 780px) {
   .filter-bar {
     display: none;
