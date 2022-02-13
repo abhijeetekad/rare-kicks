@@ -27,9 +27,9 @@
 .search-container {
   display: flex;
   align-items: center;
-  padding: 0.4rem 0.9rem;
+  padding: 0rem 0.9rem;
   gap: 1rem;
-  width: 25%;
+  width: 35%;
   overflow: auto;
   border-radius: 5rem;
   background-color: var(--header-Color);
@@ -42,7 +42,6 @@
   border: none;
   padding: 0.8rem;
   width: 100%;
-  border-radius: 5rem;
 }
 .nav-icons {
   display: flex;
@@ -53,6 +52,10 @@
 .heart-badge {
   position: relative;
 }
+.heart-badge a {
+  text-decoration: none;
+  color: white;
+}
 .notification-badge {
   position: absolute;
   background-color: rgb(211, 209, 209);
@@ -60,7 +63,7 @@
   width: 1.5rem;
   height: 1.5rem;
   top: -0.8rem;
-  right: -2rem;
+  right: -3rem;
   border-radius: 50%;
   font-weight: 600;
 }
@@ -113,6 +116,8 @@
   margin-top: 3rem;
   cursor: pointer;
   font-weight: bold;
+  text-decoration: none;
+  color: white;
 }
 .main-text a:hover {
   box-shadow: 1px 1px 10px 5px rgba(199, 199, 201, 0.2);
@@ -188,6 +193,9 @@
     padding: 2px;
     gap: 0rem;
     width: 25%;
+  }
+  .notification-badge {
+    right: -2rem;
   }
   .nav-icons div {
     margin-right: 1rem;
