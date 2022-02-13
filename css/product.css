@@ -77,6 +77,10 @@ input[type="range"] {
   width: 20rem;
   height: 25rem;
 }
+.shoe-card:hover {
+  cursor: pointer;
+  color: rgb(231, 36, 36);
+}
 .shoe-card img {
   width: 100%;
 }

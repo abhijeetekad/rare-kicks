@@ -30,6 +30,10 @@
   border-bottom: 1px solid var(--header-backgroundColor);
   margin: 1rem;
 }
+.wishlist-item:hover {
+  cursor: pointer;
+  color: rgb(231, 36, 36);
+}
 .wishlist-item img {
   height: 100%;
 }
