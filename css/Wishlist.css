@@ -1,3 +1,6 @@
+.heart-badge a {
+  text-decoration: none;
+}
 .wishList-section {
   display: flex;
   flex-direction: column;
@@ -16,15 +19,16 @@
 }
 .wishlist {
   display: flex;
-  flex-direction: column;
+  margin-left: 1rem;
+  flex-wrap: wrap;
   margin-bottom: 5rem;
-  width: 30rem;
 }
 .wishlist-item {
   height: 10rem;
   display: flex;
   justify-content: space-around;
   border-bottom: 1px solid var(--header-backgroundColor);
+  margin: 1rem;
 }
 .wishlist-item img {
   height: 100%;
@@ -56,9 +60,13 @@
   .wishlist {
     width: 22rem;
   }
+  .wishlist-item {
+    width: 22rem;
+    margin: 0rem;
+  }
 
   .wishlist-item img {
-    height: 80%;
+    height: 70%;
   }
   .wishlist-info {
     margin-top: 1rem;
