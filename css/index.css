@@ -67,6 +67,10 @@
   border-radius: 50%;
   font-weight: 600;
 }
+.account a {
+  color: var(--header-Color);
+  cursor: pointer;
+}
 .home-img-container {
   position: relative;
   margin-bottom: 1rem;
