@@ -20,18 +20,16 @@
   display: flex;
   justify-content: space-between;
 }
-.products {
+.cart-products {
   display: flex;
   flex-direction: column;
- 
+
   align-items: center;
-  
 }
 .checkout-list {
   display: flex;
   justify-content: space-between;
   width: 70%;
-  
 }
 .product-img {
   display: flex;
@@ -48,7 +46,7 @@
   list-style: none;
   display: flex;
   align-items: center;
-  
+
   cursor: pointer;
 }
 .product-img ul img {
@@ -136,7 +134,7 @@
   flex-direction: column;
   width: 80%;
   margin-left: 15%;
-  
+}
 .related-products p {
   margin-left: 35%;
   font-size: 20px;
