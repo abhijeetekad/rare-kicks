@@ -18,6 +18,10 @@
   justify-content: center;
   align-items: center;
 }
+.nav-logo a {
+  text-decoration: none;
+  color: var(--header-Color);
+}
 .nav-logo i {
   margin-right: 1rem;
 }

@@ -1,6 +1,15 @@
 /* .nav-logo i {
   cursor: pointer;
 } */
+.pagewrap {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.main {
+  padding-bottom: 15rem;
+  flex-grow: 1;
+}
 .filter-bar {
   z-index: 1;
   top: 0;
@@ -44,10 +53,13 @@
 }
 .price-range {
   margin: 1rem 2rem;
-}
-.range {
   display: flex;
-  justify-content: space-between;
+}
+
+.range {
+  font-size: 18px;
+  font-weight: bold;
+  padding-left: 1rem;
 }
 input[type="range"] {
   width: 100%;
@@ -112,6 +124,7 @@ input[type="range"] {
 .btn:hover {
   opacity: 0.6;
 }
+
 /*****************/
 ::-webkit-scrollbar {
   width: 3px;
