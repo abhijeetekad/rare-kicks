@@ -18,6 +18,10 @@
   justify-content: center;
   align-items: center;
 }
+.nav-logo a {
+  text-decoration: none;
+  color: var(--header-Color);
+}
 .nav-logo i {
   margin-right: 1rem;
 }
@@ -66,6 +70,10 @@
   right: -3rem;
   border-radius: 50%;
   font-weight: 600;
+}
+.account a {
+  color: var(--header-Color);
+  cursor: pointer;
 }
 .home-img-container {
   position: relative;

@@ -13,383 +13,356 @@
     <link rel="stylesheet" href="/css/main.css" />
   </head>
   <body>
-    <header class="nav-header">
-      <div class="nav-logo">
-        <a><h2>RARE KICKS</h2></a>
-      </div>
-      <div class="search-container">
-        <label><i class="fas fa-search"></i></label>
-        <input type="text" placeholder="Search for product" />
-      </div>
-      <div class="nav-icons">
-        <div class="heart-badge">
-          <a href="/pages/Wishlist.html">
-            <i class="fas fa-heart fa-2x"></i>
-            <div class="notification-badge flex-row"><span>2</span></div>
-          </a>
+    <div class="pagewrap">
+      <header class="nav-header">
+        <div class="nav-logo">
+          <a href="/index.html"><h2>RARE KICKS</h2></a>
         </div>
-        <div class="heart-badge">
-          <a>
-            <i class="fas fa-shopping-cart fa-2x"></i>
-            <div class="notification-badge flex-row"><span>4</span></div>
-          </a>
+        <div class="search-container">
+          <label><i class="fas fa-search"></i></label>
+          <input type="text" placeholder="Search for product" />
         </div>
-        <div>
-          <a>
-            <i class="fas fa-user-circle fa-2x"></i>
-          </a>
+        <div class="nav-icons">
+          <div class="heart-badge">
+            <a href="/pages/Wishlist.html">
+              <i class="fas fa-heart fa-2x"></i>
+              <div class="notification-badge flex-row"><span>2</span></div>
+            </a>
+          </div>
+          <div class="heart-badge">
+            <a>
+              <i class="fas fa-shopping-cart fa-2x"></i>
+              <div class="notification-badge flex-row"><span>4</span></div>
+            </a>
+          </div>
+          <div class="account">
+            <a href="/pages/signup.html">
+              <i class="fas fa-user-circle fa-2x"></i>
+            </a>
+          </div>
+        </div>
+      </header>
+      <div class="main">
+        <div class="filter-bar">
+          <div class="filter-head">
+            <h3><span>Home/</span>product</h3>
+            <!-- <i class="fas fa-times fa-2x"></i> -->
+          </div>
+          <h4>Filter by price</h4>
+          <div class="price-range">
+            <input class="input" type="range" min="0" max="10000" value="0" />
+            <div class="range value"></div>
+          </div>
+          <h4>Filter by shoe size</h4>
+          <div class="size">
+            <div class="filter-by-size">
+              <label>
+                <input type="checkbox" />
+                <span>13.5</span>
+              </label>
+              <label>
+                <input type="checkbox" />
+                <span>14.5</span>
+              </label>
+              <label>
+                <input type="checkbox" />
+                <span>15.5</span>
+              </label>
+              <label>
+                <input type="checkbox" />
+                <span>16.5</span>
+              </label>
+              <label>
+                <input type="checkbox" />
+                <span>17.5</span>
+              </label>
+              <label>
+                <input type="checkbox" />
+                <span>18.5</span>
+              </label>
+              <label>
+                <input type="checkbox" />
+                <span>19.5</span>
+              </label>
+              <label>
+                <input type="checkbox" />
+                <span>20.5</span>
+              </label>
+              <label>
+                <input type="checkbox" />
+                <span>21.5</span>
+              </label>
+              <label>
+                <input type="checkbox" />
+                <span>22.5</span>
+              </label>
+              <label>
+                <input type="checkbox" />
+                <span>23.5</span>
+              </label>
+            </div>
+          </div>
+          <h4>Filter by Brands</h4>
+          <div class="size">
+            <div class="filter-by-size">
+              <label>
+                <input type="checkbox" />
+                <span>Adidas</span>
+              </label>
+              <label>
+                <input type="checkbox" />
+                <span>adidas originals</span>
+              </label>
+              <label>
+                <input type="checkbox" />
+                <span>Asics</span>
+              </label>
+              <label>
+                <input type="checkbox" />
+                <span>New Balance</span>
+              </label>
+              <label>
+                <input type="checkbox" />
+                <span>Nike</span>
+              </label>
+              <label>
+                <input type="checkbox" />
+                <span>puma</span>
+              </label>
+              <label>
+                <input type="checkbox" />
+                <span>Reebok</span>
+              </label>
+              <label>
+                <input type="checkbox" />
+                <span>Ylati</span>
+              </label>
+              <label>
+                <input type="checkbox" />
+                <span>Vans</span>
+              </label>
+              <label>
+                <input type="checkbox" />
+                <span>Sneaker Lab</span>
+              </label>
+            </div>
+          </div>
+          <h4>Filter by Colors</h4>
+          <div class="size">
+            <div class="filter-by-size">
+              <label>
+                <input type="checkbox" />
+                <span>Black</span>
+              </label>
+              <label>
+                <input type="checkbox" />
+                <span>Blue</span>
+              </label>
+              <label>
+                <input type="checkbox" />
+                <span>Brown</span>
+              </label>
+              <label>
+                <input type="checkbox" />
+                <span>Cream</span>
+              </label>
+              <label>
+                <input type="checkbox" />
+                <span>Gold</span>
+              </label>
+              <label>
+                <input type="checkbox" />
+                <span>Green</span>
+              </label>
+              <label>
+                <input type="checkbox" />
+                <span>Grey</span>
+              </label>
+              <label>
+                <input type="checkbox" />
+                <span>Orange</span>
+              </label>
+              <label>
+                <input type="checkbox" />
+                <span>Pink</span>
+              </label>
+              <label>
+                <input type="checkbox" />
+                <span>Silver</span>
+              </label>
+            </div>
+          </div>
+          <h4>Ratings</h4>
+          <div class="rating">
+            <div class="filter-by-size">
+              <label>
+                <input class="radio" type="checkbox" />
+                <span>4 Stars & above</span>
+              </label>
+              <label>
+                <input class="radio" type="checkbox" />
+                <span>3 Stars & above</span>
+              </label>
+              <label>
+                <input class="radio" type="checkbox" />
+                <span>2 Stars & above</span>
+              </label>
+              <label>
+                <input class="radio" type="checkbox" />
+                <span>1 Stars & above</span>
+              </label>
+            </div>
+          </div>
+          <h4>Sort by</h4>
+          <div class="sort">
+            <div class="filter-by-size">
+              <label>
+                <input class="radio" type="radio" name="sort" />
+                <span>Price- Low to High</span>
+              </label>
+              <label>
+                <input class="radio" type="radio" name="sort" />
+                <span>Price- High to Low</span>
+              </label>
+            </div>
+          </div>
+          <br /><br /><br /><br /><br /><br />
+        </div>
+        <div class="container">
+          <h1>Showing all products.</h1>
+          <div class="products">
+            <div class="shoe-card">
+              <div>
+                <img src="/images/AIR JORDAN 1 HIGH OG ELECTRO ORANGE.webp" />
+              </div>
+              <div class="card-desc">
+                <h1>AIR JORDEN 1</h1>
+                <h4>High OG Electro Orange (GS)</h4>
+                <h3>Price: Rs.9600</h3>
+              </div>
+              <div class="card-btn">
+                <button class="btn">Buy Now</button>
+                <button class="btn">Add to cart</button>
+              </div>
+            </div>
+            <div class="shoe-card">
+              <div>
+                <img src="/images/HIGH OG SP FRAGMENT.webp" />
+              </div>
+              <div class="card-desc">
+                <h1>AIR JORDEN 1</h1>
+                <h4>High OG SP Fragment x Travis Scott</h4>
+                <h3>Price: Rs.248220</h3>
+              </div>
+              <div class="card-btn">
+                <button class="btn">Buy Now</button>
+                <button class="btn">Add to cart</button>
+              </div>
+            </div>
+            <div class="shoe-card">
+              <div>
+                <img src="/images/HIGH SWITCH PEACH.webp" />
+              </div>
+              <div class="card-desc">
+                <h1>AIR JORDEN 1</h1>
+                <h4>High Switch Peach</h4>
+                <h3>Price: Rs.11340</h3>
+              </div>
+              <div class="card-btn">
+                <button class="btn">Buy Now</button>
+                <button class="btn">Add to cart</button>
+              </div>
+            </div>
+            <div class="shoe-card">
+              <div>
+                <img src="/images/High Zoom Air CMFT Olive Aura (W).webp" />
+              </div>
+              <div class="card-desc">
+                <h1>AIR JORDEN 1</h1>
+                <h4>High Zoom Air CMFT Olive Aura (W)</h4>
+                <h3>Price: Rs.10560</h3>
+              </div>
+              <div class="card-btn">
+                <button class="btn">Buy Now</button>
+                <button class="btn">Add to cart</button>
+              </div>
+            </div>
+            <div class="shoe-card">
+              <div>
+                <img
+                  src="/images/High Zoom Air CMFT PSG Paris Saint-Germain.webp"
+                />
+              </div>
+              <div class="card-desc">
+                <h1>AIR JORDEN 1</h1>
+                <h4>High Zoom Air CMFT PSG Paris Saint-Germain</h4>
+                <h3>Price: Rs.17880</h3>
+              </div>
+              <div class="card-btn">
+                <button class="btn">Buy Now</button>
+                <button class="btn">Add to cart</button>
+              </div>
+            </div>
+            <div class="shoe-card">
+              <div>
+                <img src="/images/High Zoom Air CMFT Sail (W).webp" />
+              </div>
+              <div class="card-desc">
+                <h1>AIR JORDEN 1</h1>
+                <h4>High Zoom Air CMFT Sail (W)</h4>
+                <h3>Price: Rs.11340</h3>
+              </div>
+              <div class="card-btn">
+                <button class="btn">Buy Now</button>
+                <button class="btn">Add to cart</button>
+              </div>
+            </div>
+            <div class="shoe-card">
+              <div>
+                <img src="/images/HIGH ZOOM AIR CMFT STADIUM GREEN.webp" />
+              </div>
+              <div class="card-desc">
+                <h1>AIR JORDEN 1</h1>
+                <h4>HIGH ZOOM AIR CMFT STADIUM GREEN</h4>
+                <h3>Price: Rs.8100</h3>
+              </div>
+              <div class="card-btn">
+                <button class="btn">Buy Now</button>
+                <button class="btn">Add to cart</button>
+              </div>
+            </div>
+            <div class="shoe-card">
+              <div>
+                <img src="/images/LOW EXPERIMENTAL HALLOWEEN.webp" />
+              </div>
+              <div class="card-desc">
+                <h1>NIKE AIR FORCE 1</h1>
+                <h4>LOW EXPERIMENTAL HALLOWEEN</h4>
+                <h3>Price: Rs.10680</h3>
+              </div>
+              <div class="card-btn">
+                <button class="btn">Buy Now</button>
+                <button class="btn">Add to cart</button>
+              </div>
+            </div>
+            <div class="shoe-card">
+              <div>
+                <img src="/images/LOW '07 PRM HALLOWEEN (2021).webp" />
+              </div>
+              <div class="card-desc">
+                <h1>NIKE AIR FORCE 1</h1>
+                <h4>LOW '07 PRM HALLOWEEN (2021)</h4>
+                <h3>Price: Rs.7800</h3>
+              </div>
+              <div class="card-btn">
+                <button class="btn">Buy Now</button>
+                <button class="btn">Add to cart</button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </header>
-    <div class="filter-bar">
-      <div class="filter-head">
-        <h3><span>Home/</span>product</h3>
-        <!-- <i class="fas fa-times fa-2x"></i> -->
-      </div>
-
-      <h4>Filter by shoe size</h4>
-      <div class="size">
-        <div class="filter-by-size">
-          <label>
-            <input type="checkbox" />
-            <span>13.5</span>
-          </label>
-          <label>
-            <input type="checkbox" />
-            <span>14.5</span>
-          </label>
-          <label>
-            <input type="checkbox" />
-            <span>15.5</span>
-          </label>
-          <label>
-            <input type="checkbox" />
-            <span>16.5</span>
-          </label>
-          <label>
-            <input type="checkbox" />
-            <span>17.5</span>
-          </label>
-          <label>
-            <input type="checkbox" />
-            <span>18.5</span>
-          </label>
-          <label>
-            <input type="checkbox" />
-            <span>19.5</span>
-          </label>
-          <label>
-            <input type="checkbox" />
-            <span>20.5</span>
-          </label>
-          <label>
-            <input type="checkbox" />
-            <span>21.5</span>
-          </label>
-          <label>
-            <input type="checkbox" />
-            <span>22.5</span>
-          </label>
-          <label>
-            <input type="checkbox" />
-            <span>23.5</span>
-          </label>
-        </div>
-      </div>
-      <h4>Filter by Brands</h4>
-      <div class="size">
-        <div class="filter-by-size">
-          <label>
-            <input type="checkbox" />
-            <span>Adidas</span>
-          </label>
-          <label>
-            <input type="checkbox" />
-            <span>adidas originals</span>
-          </label>
-          <label>
-            <input type="checkbox" />
-            <span>Asics</span>
-          </label>
-          <label>
-            <input type="checkbox" />
-            <span>New Balance</span>
-          </label>
-          <label>
-            <input type="checkbox" />
-            <span>Nike</span>
-          </label>
-          <label>
-            <input type="checkbox" />
-            <span>puma</span>
-          </label>
-          <label>
-            <input type="checkbox" />
-            <span>Reebok</span>
-          </label>
-          <label>
-            <input type="checkbox" />
-            <span>Ylati</span>
-          </label>
-          <label>
-            <input type="checkbox" />
-            <span>Vans</span>
-          </label>
-          <label>
-            <input type="checkbox" />
-            <span>Sneaker Lab</span>
-          </label>
-        </div>
-      </div>
-      <h4>Filter by Colors</h4>
-      <div class="size">
-        <div class="filter-by-size">
-          <label>
-            <input type="checkbox" />
-            <span>Black</span>
-          </label>
-          <label>
-            <input type="checkbox" />
-            <span>Blue</span>
-          </label>
-          <label>
-            <input type="checkbox" />
-            <span>Brown</span>
-          </label>
-          <label>
-            <input type="checkbox" />
-            <span>Cream</span>
-          </label>
-          <label>
-            <input type="checkbox" />
-            <span>Gold</span>
-          </label>
-          <label>
-            <input type="checkbox" />
-            <span>Green</span>
-          </label>
-          <label>
-            <input type="checkbox" />
-            <span>Grey</span>
-          </label>
-          <label>
-            <input type="checkbox" />
-            <span>Orange</span>
-          </label>
-          <label>
-            <input type="checkbox" />
-            <span>Pink</span>
-          </label>
-          <label>
-            <input type="checkbox" />
-            <span>Silver</span>
-          </label>
-        </div>
-      </div>
-      <h4>Filter by price</h4>
-      <div class="price-range">
-        <div class="range">
-          <p>1500</p>
-          <p>2500</p>
-          <p>10000</p>
-        </div>
-        <input type="range" min="1500" max="10000" />
-      </div>
-      <h4>Ratings</h4>
-      <div class="rating">
-        <div class="filter-by-size">
-          <label>
-            <input class="radio" type="checkbox" />
-            <span>4 Stars & above</span>
-          </label>
-          <label>
-            <input class="radio" type="checkbox" />
-            <span>3 Stars & above</span>
-          </label>
-          <label>
-            <input class="radio" type="checkbox" />
-            <span>2 Stars & above</span>
-          </label>
-          <label>
-            <input class="radio" type="checkbox" />
-            <span>1 Stars & above</span>
-          </label>
-        </div>
-      </div>
-      <h4>Sort by</h4>
-      <div class="sort">
-        <div class="filter-by-size">
-          <label>
-            <input class="radio" type="radio" name="sort" />
-            <span>Price- Low to High</span>
-          </label>
-          <label>
-            <input class="radio" type="radio" name="sort" />
-            <span>Price- High to Low</span>
-          </label>
-        </div>
-      </div>
-      <br /><br /><br /><br /><br /><br />
     </div>
-    <div class="container">
-      <h1>Showing all products.</h1>
-      <div class="products">
-        <div class="shoe-card">
-          <div>
-            <img src="/images/AIR JORDAN 1 HIGH OG ELECTRO ORANGE.webp" />
-          </div>
-          <div class="card-desc">
-            <h1>AIR JORDEN 1</h1>
-            <h4>High OG Electro Orange (GS)</h4>
-            <h3>Price: Rs.9600</h3>
-          </div>
-          <div class="card-btn">
-            <button class="btn">Buy Now</button>
-            <button class="btn">Add to cart</button>
-          </div>
-        </div>
-        <div class="shoe-card">
-          <div>
-            <img src="/images/HIGH OG SP FRAGMENT.webp" />
-          </div>
-          <div class="card-desc">
-            <h1>AIR JORDEN 1</h1>
-            <h4>High OG SP Fragment x Travis Scott</h4>
-            <h3>Price: Rs.248220</h3>
-          </div>
-          <div class="card-btn">
-            <button class="btn">Buy Now</button>
-            <button class="btn">Add to cart</button>
-          </div>
-        </div>
-        <div class="shoe-card">
-          <div>
-            <img src="/images/HIGH SWITCH PEACH.webp" />
-          </div>
-          <div class="card-desc">
-            <h1>AIR JORDEN 1</h1>
-            <h4>High Switch Peach</h4>
-            <h3>Price: Rs.11340</h3>
-          </div>
-          <div class="card-btn">
-            <button class="btn">Buy Now</button>
-            <button class="btn">Add to cart</button>
-          </div>
-        </div>
-        <div class="shoe-card">
-          <div>
-            <img src="/images/High Zoom Air CMFT Olive Aura (W).webp" />
-          </div>
-          <div class="card-desc">
-            <h1>AIR JORDEN 1</h1>
-            <h4>High Zoom Air CMFT Olive Aura (W)</h4>
-            <h3>Price: Rs.10560</h3>
-          </div>
-          <div class="card-btn">
-            <button class="btn">Buy Now</button>
-            <button class="btn">Add to cart</button>
-          </div>
-        </div>
-        <div class="shoe-card">
-          <div>
-            <img
-              src="/images/High Zoom Air CMFT PSG Paris Saint-Germain.webp"
-            />
-          </div>
-          <div class="card-desc">
-            <h1>AIR JORDEN 1</h1>
-            <h4>High Zoom Air CMFT PSG Paris Saint-Germain</h4>
-            <h3>Price: Rs.17880</h3>
-          </div>
-          <div class="card-btn">
-            <button class="btn">Buy Now</button>
-            <button class="btn">Add to cart</button>
-          </div>
-        </div>
-        <div class="shoe-card">
-          <div>
-            <img src="/images/High Zoom Air CMFT Sail (W).webp" />
-          </div>
-          <div class="card-desc">
-            <h1>AIR JORDEN 1</h1>
-            <h4>High Zoom Air CMFT Sail (W)</h4>
-            <h3>Price: Rs.11340</h3>
-          </div>
-          <div class="card-btn">
-            <button class="btn">Buy Now</button>
-            <button class="btn">Add to cart</button>
-          </div>
-        </div>
-        <div class="shoe-card">
-          <div>
-            <img src="/images/HIGH ZOOM AIR CMFT STADIUM GREEN.webp" />
-          </div>
-          <div class="card-desc">
-            <h1>AIR JORDEN 1</h1>
-            <h4>HIGH ZOOM AIR CMFT STADIUM GREEN</h4>
-            <h3>Price: Rs.8100</h3>
-          </div>
-          <div class="card-btn">
-            <button class="btn">Buy Now</button>
-            <button class="btn">Add to cart</button>
-          </div>
-        </div>
-        <div class="shoe-card">
-          <div>
-            <img src="/images/LOW EXPERIMENTAL HALLOWEEN.webp" />
-          </div>
-          <div class="card-desc">
-            <h1>NIKE AIR FORCE 1</h1>
-            <h4>LOW EXPERIMENTAL HALLOWEEN</h4>
-            <h3>Price: Rs.10680</h3>
-          </div>
-          <div class="card-btn">
-            <button class="btn">Buy Now</button>
-            <button class="btn">Add to cart</button>
-          </div>
-        </div>
-        <div class="shoe-card">
-          <div>
-            <img src="/images/LOW '07 PRM HALLOWEEN (2021).webp" />
-          </div>
-          <div class="card-desc">
-            <h1>NIKE AIR FORCE 1</h1>
-            <h4>LOW '07 PRM HALLOWEEN (2021)</h4>
-            <h3>Price: Rs.7800</h3>
-          </div>
-          <div class="card-btn">
-            <button class="btn">Buy Now</button>
-            <button class="btn">Add to cart</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- <div class="filter-bar"></div> -->
-
-    <!-- <footer class="footer">
-      <div class="footer-section">
-        <h3>IMPORTANT LINKS</h3>
-        <h5>Refunds/Cancellation</h5>
-        <h5>Terms and Conditions</h5>
-        <h5>FAQ</h5>
-        <h5>Privacy Policy</h5>
-      </div>
-      <div class="footer-section">
-        <h3>NEED HELP?</h3>
-        <h5>My Account</h5>
-        <h5>Size Chart</h5>
-        <h5>Contact Us</h5>
-      </div>
-      <div class="footer-section">
-        <h3>FOLLOW</h3>
-        <h5>Instagram</h5>
-        <h5>Facebook</h5>
-      </div>
-      <div class="footer-section">
-        <h3>SUBSCRIBE TO OUR NEWSLETTER</h3>
-        <h5>Sign up to our newsletter for new product launches!</h5>
-        <input type="text" placeholder="Email address" />
-      </div>
-    </footer> -->
+    <script src="product.js"></script>
   </body>
 </html>
