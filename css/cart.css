@@ -1,3 +1,8 @@
+:root {
+  --price-card-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .cart {
   display: flex;
   flex-direction: column;
@@ -6,42 +11,50 @@
   margin: 2rem 0rem;
   border-bottom: 1px solid var(--header-backgroundColor);
 }
+
 .cart p {
   font-size: 2rem;
   font-weight: bold;
 }
+
 .checkout-details {
   display: flex;
   flex-direction: column;
   width: 80%;
   margin-top: 2rem;
 }
+
 .final-checkout {
   display: flex;
   justify-content: space-between;
 }
+
 .cart-products {
   display: flex;
   flex-direction: column;
 
   align-items: center;
 }
+
 .checkout-list {
   display: flex;
   justify-content: space-between;
   width: 70%;
 }
+
 .product-img {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 60%;
-  padding: 0rem 1rem 0rem 0rem;
+  padding-right: 1rem;
 }
+
 .product-img img {
   cursor: pointer;
   width: 100%;
 }
+
 .product-img ul {
   list-style: none;
   display: flex;
@@ -49,9 +62,11 @@
 
   cursor: pointer;
 }
+
 .product-img ul img {
   width: 70%;
 }
+
 .product-info {
   display: flex;
   flex-direction: column;
@@ -59,17 +74,21 @@
   width: 60%;
   padding: 1rem;
 }
+
 .product-info p {
   font-size: 20px;
 }
+
 .product-count {
   display: flex;
   gap: 0.5rem;
   align-items: center;
 }
+
 .product-count .count {
   font-weight: bold;
 }
+
 .product-count button {
   border-radius: 50%;
   width: 2rem;
@@ -81,13 +100,16 @@
   color: var(--header-Color);
   cursor: pointer;
 }
+
 .product-count button:hover {
   opacity: 0.6;
 }
+
 .checkout-btn {
   display: flex;
   gap: 1rem;
 }
+
 .cart-btn {
   width: 100%;
   padding: 0.7rem;
@@ -96,13 +118,15 @@
   color: var(--header-Color);
   cursor: pointer;
 }
+
 .cart-btn:hover {
   opacity: 0.6;
 }
+
 .price-details {
   width: 70rem;
   height: 25rem;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: var(--price-card-shadow);
   margin-right: auto;
   margin-top: 3rem;
   display: flex;
@@ -110,31 +134,38 @@
   padding: 1rem;
   gap: 1rem;
 }
+
 .price {
   display: flex;
   justify-content: space-between;
 }
+
 .price-details .price-txt {
   font-size: 20px;
 }
+
 .coupun {
   display: flex;
   align-items: center;
   font-size: 14px;
   gap: 1rem;
 }
+
 .coupun .coupun-txt {
   font-size: 16px;
 }
+
 .coupun input {
   height: 2rem;
 }
+
 .related-products {
   display: flex;
   flex-direction: column;
   width: 80%;
   margin-left: 15%;
 }
+
 .related-products p {
   margin-left: 35%;
   font-size: 20px;
