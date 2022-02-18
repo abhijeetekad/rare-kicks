@@ -1,0 +1,83 @@
+.tabs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 5rem;
+  width: 50%;
+  padding: 10px;
+}
+.tab-header {
+  display: flex;
+  gap: 0.5rem;
+  position: relative;
+  width: 40rem;
+}
+.tab-header > div {
+  width: 100%;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 10px;
+  text-align: center;
+  border-bottom: 2px solid var(--header-backgroundColor);
+}
+.tab-header > .active {
+  color: var(--header-Color);
+  background-color: var(--header-backgroundColor);
+  border-radius: 5px;
+}
+.tab-body {
+  width: 45rem;
+}
+.tab-body img {
+  border-radius: 50%;
+  width: 10rem;
+  height: 10rem;
+}
+.tab-body > div {
+  position: absolute;
+  opacity: 0;
+  width: 40rem;
+  margin: 1rem 3rem;
+}
+.tabs .tab-body > .active {
+  opacity: 1;
+}
+.address {
+  width: 20rem;
+  height: 10rem;
+
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.account-lo {
+  margin: 1rem 0rem;
+  padding: 1rem;
+  font-weight: bold;
+  border: none;
+  background-color: rgb(241, 58, 58);
+  cursor: pointer;
+}
+.account-lo a {
+  text-decoration: none;
+  color: var(--header-backgroundColor);
+}
+.account-lo:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 780px) {
+  .tab-header {
+    width: 20rem;
+  }
+
+  .tab-body {
+    width: 25rem;
+  }
+  .tab-body > div {
+    width: 20rem;
+  }
+}
