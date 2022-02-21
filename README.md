@@ -26,7 +26,6 @@ RARE KICKS is Ecommerce website to buy limited edition shoes.
 ## Featers-
 - [Home](https://rarekicks.netlify.app/)
 - [Product Listing Page](https://rarekicks.netlify.app/pages/product.html)
-- [Single Product Page]
 - [Filters](https://rarekicks.netlify.app/pages/product.html)
 - [Cart Management](https://rarekicks.netlify.app/pages/cart.html)
 - [Wishlist Management](https://rarekicks.netlify.app/pages/wishlist)
