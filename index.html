@@ -22,6 +22,9 @@
         <input type="search" placeholder="Search for product" />
       </div>
       <div class="nav-icons">
+        <div class="sign-in">
+          <p>Sign in</p>
+        </div>
         <div class="heart-badge">
           <a href="/pages/Wishlist.html">
             <i class="fas fa-heart fa-2x"></i>
@@ -122,6 +125,72 @@
               </div>
           </div>
         </div>
+      </div>
+      <div class="signUp-container flex-col live-sign-in">
+        <form class="sign-in-form">
+          <div class="sign-in-head">
+            <p class="form-name">Sign Up</p>
+            <h2 class="close-sign-in">x</h2>
+          </div>
+          
+          <div class="sign-name">
+            <div>
+              <p class="required">First Name</p>
+              <input type="text" placeholder="First Name" required />
+            </div>
+            <div>
+              <p class="required">Last Name</p>
+              <input type="text" placeholder="Last Name" required />
+            </div>
+          </div>
+          <div class="sign-mail">
+            <p class="required">Email Address</p>
+            <input type="email" placeholder="test@gmail.com" required />
+          </div>
+          <div class="sign-password">
+            <p class="required">Password</p>
+            <input type="password" placeholder="******" required />
+          </div>
+          <div class="flex-row-check checkbox">
+            <input type="checkbox" required />
+            <p class="required">I accept all Terms & Conditions</p>
+          </div>
+          <button class="sign-btn">Create New Account</button>
+          <div class="flex-row">
+            <a><p class="log-in">Already have an account</p></a>
+  
+            <i class="fa fa-chevron-right"></i>
+          </div>
+        </form>
+      </div>
+      <div class="signUp-container flex-col live-log-in">
+        <form class="log-in-form">
+          <div class="sign-in-head">
+            <p class="form-name">Login</p>
+            <h2 class="close-log-in">x</h2>
+          </div>
+          <div class="sign-mail">
+            <p class="required">Email Address</p>
+            <input type="email" placeholder="test@gmail.com" required />
+          </div>
+          <div class="sign-password">
+            <p class="required">Password</p>
+            <input type="password" placeholder="******" required />
+          </div>
+          <div class="login-flex-row">
+            <div class="flex-row-check checkbox">
+              <input type="checkbox" required />
+              <p class="required">I accept all Terms & Conditions</p>
+            </div>
+            <a href="/pages/forgot-password.html"><p>Forgot your Password?</p></a>
+          </div>
+          <button class="sign-btn">Login</button>
+          <div class="flex-row">
+            <a href="/pages/signup.html"><p>Create New Account</p></a>
+  
+            <i class="fa fa-chevron-right"></i>
+          </div>
+        </form>
       </div>
     <footer class="footer">
       <div class="footer-section">
